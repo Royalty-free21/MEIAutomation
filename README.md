@@ -12,3 +12,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 cdk synth
 cdk deploy
+
+cd terraform
+terraform init
+terraform apply
+
